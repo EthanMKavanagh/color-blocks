@@ -1,3 +1,8 @@
+div {
+    display: inline-block;
+    margin: 10px;
+}
+
 .redSquare {
     height: 100px;
     width: 100px;
