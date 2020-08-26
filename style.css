@@ -1,9 +1,23 @@
-.redBlock {
+.redSquare {
     height: 100px;
     width: 100px;
     background-color: red;
 }
 
-h1 {
-    color: blue;
+.blueSquare {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.greenSquare {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.yellowSquare {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
 }
