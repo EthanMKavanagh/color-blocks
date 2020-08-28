@@ -1,10 +1,3 @@
-/*
-[x] - Add 4 buttons
-[] - when clicked, add color block to DOM
-[] - count total of each block
-*/
-
-
 $( document ).ready( readyNow );
 
 function readyNow(){
