@@ -7,7 +7,7 @@ function readyNow(){
     $( '.yellowButton' ).on( 'click', yellowSquareDisplay );
 } // end readyNow
 
-let redNumber = 1;
+let redNumber = 2;
 function redSquareDisplay(){
     $( '.squares' ).append( '<div class=redSquare></div>' );
     let el = $( '.redCount' );
@@ -15,7 +15,7 @@ function redSquareDisplay(){
     el.append( ' ', redNumber++ );
 } // end redSquareDisplay
 
-let blueNumber = 1;
+let blueNumber = 2;
 function blueSquareDisplay(){
     $( '.squares' ).append( '<div class=blueSquare></div>' );
     let el = $( '.blueCount' );
@@ -23,7 +23,7 @@ function blueSquareDisplay(){
     el.append( ' ', blueNumber++ );
 } // end blueSquareDisplay
 
-let greenNumber = 1;
+let greenNumber = 2;
 function greenSquareDisplay(){
     $( '.squares' ).append( '<div class=greenSquare></div>' );
     let el = $( '.greenCount' );
@@ -31,7 +31,7 @@ function greenSquareDisplay(){
     el.append( ' ', greenNumber++ );
 } // end greenSquareDisplay
 
-let yellowNumber = 1
+let yellowNumber = 2;
 function yellowSquareDisplay(){
     $( '.squares' ).append( '<div class=yellowSquare></div>' );
     let el = $( '.yellowCount' );
